@@ -1,0 +1,35 @@
+{
+  "name": "ip2country-bot",
+  "version": "1.0.0",
+  "description": "Messenger Bot for IP 2 Country",
+  "main": "index.js",
+  "private": true,
+  "files": [
+    "config.json",
+    "index.js",
+    "lib"
+  ],
+  "dependencies": {
+    "ip2countrify": "0.0.4",
+    "messenger-bot": "^2.3.0"
+  },
+  "devDependencies": {
+    "config-leaf": "^0.2.0",
+    "eslint": "^3.1.1"
+  },
+  "scripts": {
+    "test": "npm outdated && eslint .",
+    "start": "node index.js --use_strict",
+    "encrypt": "encrypt config.json config.json.cast5",
+    "decrypt": "decrypt config.json.cast5 config.json"
+  },
+  "author": {
+    "name": "Sergej Müller",
+    "url": "https://sergejmueller.github.io"
+  },
+  "license": "ISC",
+  "homepage": "https://ip2country.info",
+  "repository": {
+    "type": "git"
+  }
+}
