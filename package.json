@@ -1,6 +1,6 @@
 {
   "name": "ip2country-bot",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Messenger Bot for IP 2 Country",
   "main": "index.js",
   "private": true,
@@ -10,16 +10,16 @@
     "lib"
   ],
   "dependencies": {
-    "ip2countrify": "0.0.4",
-    "messenger-bot": "^2.3.0"
+    "bootbot": "^1.0.6",
+    "ip2countrify": "0.0.4"
   },
   "devDependencies": {
     "config-leaf": "^0.3.0",
-    "eslint": "^3.3.0"
+    "eslint": "^3.3.1"
   },
   "scripts": {
     "test": "npm outdated && eslint .",
-    "start": "node index.js --use_strict",
+    "start": "node index.js",
     "encrypt": "encrypt config.json config.json.cast5",
     "decrypt": "decrypt config.json.cast5 config.json"
   },
