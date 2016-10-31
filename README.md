@@ -20,7 +20,7 @@ ngrok http 3000
 
 * Super easy
 ```bash
-now
+now -e NODE_ENV=production
 ```
 
 
