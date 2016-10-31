@@ -1,6 +1,12 @@
-# Messenger Bot for IP 2 Country
+<p align="center">
+    <img src="https://raw.githubusercontent.com/sergejmueller/ip2country-bot/master/assets/code.png" width="200" height="200" alt="Messenger Bot for IP 2 Country">
+    <br>
+    <b>Messenger Bot for IP 2 Country</b>
+    <br>
+    <a href="https://m.me/ip2country">Start conversation</a>
+</p>
 
-[IP to Country](https://ip2country.info) mapping directly in Facebook Messenger. [Start conversation](https://m.me/ip2country) and say *Hello*.
+IP to Country mapping directly in Facebook Messenger.
 
 
 ### Testing
