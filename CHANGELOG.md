@@ -1,6 +1,11 @@
 # ip2country-bot / CHANGELOG
 
 
+### v1.3.1 (2018-12-09)
+
+* Update dependencies
+
+
 ### v1.3.0 (2016-10-31)
 
 * Add flags to the project
